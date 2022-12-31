@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class HellowWorld {
+public static void main(String[] args){
+Scanner input = new Scanner(System.in);
+System.out.print(&quot;a = &quot;);
+int a = blah.nextInt();
+System.out.print(&quot;b = &quot;);
+int b = blah.nextInt();
+int temp = a;
+a = b;
+b = temp;
+System.out.println(&quot;Swapped - a=&quot; + a + &quot; &amp; b=&quot; + b);
+}
+}
